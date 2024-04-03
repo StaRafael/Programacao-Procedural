@@ -4,28 +4,26 @@ class Program
 {
   static void Main(string[] args)
   {
-    const int QUANT_NOMES = 3;
-    string[] nomePessoas = new string[QUANT_NOMES];
+    const int QUANTIDADE_DE_PESSOAS = 10;
+    string[] nome = new string[QUANTIDADE_DE_PESSOAS];
+    bool resultado = false;
 
-    for (int i = 0; i < QUANT_NOMES; i++)
+    for (int linha = 0; linha < QUANTIDADE_DE_PESSOAS; linha++)
     {
-      nomePessoas[i] = Console.ReadLine();
+      nome[linha] = Console.ReadLine();
     }
 
-    string buscarNome = Console.ReadLine();
+    string pesquisa_Nome = Console.ReadLine();
 
-    bool nomeEncontrado = false;
-
-    for (int i = 0; i < QUANT_NOMES; i++)
+    for (int linha = 0; linha < QUANTIDADE_DE_PESSOAS; linha++)
     {
-      if (nomePessoas[i] == buscarNome)
+      if (pesquisa_Nome == nome[linha])
       {
-        nomeEncontrado = true;
-        break;
+        resultado = true;
       }
     }
 
-    if (nomeEncontrado)
+    if (resultado == true)
     {
       Console.WriteLine("ACHEI");
     }
@@ -33,5 +31,6 @@ class Program
     {
       Console.WriteLine("NAO ACHEI");
     }
+
   }
 }
