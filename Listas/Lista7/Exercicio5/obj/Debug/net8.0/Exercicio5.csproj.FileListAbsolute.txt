@@ -1,0 +1,5 @@
+C:\Users\Rafael\Desktop\Programacao-Procedural\Listas\Lista7\Exercicio5\obj\Debug\net8.0\Exercicio5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rafael\Desktop\Programacao-Procedural\Listas\Lista7\Exercicio5\obj\Debug\net8.0\Exercicio5.AssemblyInfoInputs.cache
+C:\Users\Rafael\Desktop\Programacao-Procedural\Listas\Lista7\Exercicio5\obj\Debug\net8.0\Exercicio5.AssemblyInfo.cs
+C:\Users\Rafael\Desktop\Programacao-Procedural\Listas\Lista7\Exercicio5\obj\Debug\net8.0\Exercicio5.csproj.CoreCompileInputs.cache
+C:\Users\Rafael\Desktop\Programacao-Procedural\Listas\Lista7\Exercicio5\obj\Debug\net8.0\Exercicio5.sourcelink.json
